@@ -12,5 +12,5 @@ deploy:
 os:
   - linux
   - osx
-language: objective-c
+language: generic
 
