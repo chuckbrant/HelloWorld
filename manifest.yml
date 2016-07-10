@@ -1,5 +1,9 @@
 applications:
+<<<<<<< HEAD
 - name: Hello-Cbrant
+=======
+- name: Kitura-Starter-Bluemix
+>>>>>>> origin/master
   memory: 256M
   instances: 1
   random-route: true
