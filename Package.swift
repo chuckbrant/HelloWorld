@@ -17,10 +17,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "Kitura-Starter-Bluemix",
+    name: "Hello-Cbrant",
     targets: [
         Target(
-            name: "Kitura-Starter-Bluemix",
+            name: "Hello-Cbrant",
             dependencies: []
         )
     ],
