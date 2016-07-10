@@ -1,0 +1,10 @@
+deploy:
+  provider: cloudfoundry
+  api: https://api.ng.bluemix.net
+  username: cbrant@us.ibm.com
+  password:
+    secure: M8YOSXrkqWead113avpeprjr6x+7UinO4rtKh9GQ02Mc/3F1p78q7xMxNjGyw8MyIjc9c3a4p31W/ub2zrQboSytrQC8/B9S9KKNP+0dXjje+RExIaxdViEtLV0JdLMhYgN1U5yGxRt49z4QYdaN0ef+LdtvXXp+THEcXSkEtKc2P+zuhq3/OK8ni3RsywUokPzFgx2ivQFSJ5wil4MnhWNf9LauJn+Nqx/wyOdLvCdMFNAgjC5vCM257TdxI4YKM230i9esHxflSbKtUdP96mhzHNgs+0RxvssC+tslvMtQMILxEGOuOBVd7Q04sO+bBNI5dMdv6FRgoV5Geo/ogqwhIxhD1ux7dGJCsq/st53ZJad0bYzh7BLPw2jMOJMK6bTkzZFlbmBi/WR+6qDD+Hd1edDOz5rTpOM67RNTjuwwtc1lt6v9dEmn10sdxpSosNOGR1VNi2TySeVL8Tp5mcdZd6IKJFRWXBrCmlLYmY8CkaKeX8iRh+HYBEoJA0RwCchQbPN42NCkCZ97MPKmAZ9ApXCg28yQ/RV6MZJUGAKKdE1AXwSRi1TJujo/SiztPJNe9EShRyV5qwLpg0xYpbglpWb2+Zqzk8TCiza6FDRCbWXFpnYzNTIQn4zioGO7wtXVRNl1lCR0cRpF6sWfNHQhYEUCAbdd7x1xRGo+rN0=
+  organization: cbrant@us.ibm.com
+  space: cbrant-swift
+  on:
+    repo: chuckbrant/HelloWorld
