@@ -8,9 +8,5 @@ deploy:
   space: cbrant-swift
   on:
     repo: chuckbrant/HelloWorld
-
-os:
-  - linux
-  - osx
 language: generic
 
